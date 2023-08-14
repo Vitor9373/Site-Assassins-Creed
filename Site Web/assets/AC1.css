@@ -1,0 +1,10 @@
+@import url(nav.css);
+
+body{
+    margin: 0%;
+    background-color: black;
+}
+
+img.fundo{
+    width: 100%;
+}

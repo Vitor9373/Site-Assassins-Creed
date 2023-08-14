@@ -1,0 +1,61 @@
+nav>div>ul{
+    display: flex;
+    height: 5rem;
+    list-style: none;
+    gap: 4rem;
+}
+
+nav>div>ul>li>ul{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 15rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
+nav{
+    position: fixed;
+    z-index: 2;
+    background:linear-gradient(black,rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 5rem;
+    margin: 0%;
+    padding: 0%;
+    top: 0%;
+}
+
+nav:is(ul,li){
+    list-style: none;
+    display: inline-block;
+} 
+
+nav>div>ul>li>ul>li{
+    display: block;
+}
+
+nav>div>ul>li:hover>ul{
+    opacity: 1;
+    visibility: visible;
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+nav>div>ul>li{
+    position: relative;
+}
+
+nav a{
+    color:white;
+    font-size: x-large;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav a:hover{
+    color: red;
+}
+
+nav>div>ul>li>a>img{
+    height: 5rem;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 20px;
+}
