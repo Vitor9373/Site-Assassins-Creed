@@ -3,6 +3,8 @@
 body{
     margin: 0%;
     background-color: black;
+    display: grid;
+    place-items: center;
 }
 
 img.fundo{
@@ -10,3 +12,19 @@ img.fundo{
     z-index: 1;
 }
 
+p{
+    color: white;
+    font-size: xx-large;
+    display: grid;
+}
+
+p2{
+    font-size: x-large;
+    color: white;
+    width: 75%;
+}
+
+img.assassinos{
+    width: 50%;
+    border-radius: 20px;
+}
