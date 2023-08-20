@@ -16,9 +16,9 @@ nav>div>ul>li>ul{
 
 nav{
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     background:linear-gradient(black,rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0));
-    width: 100%;
+    width: 100vw;
     height: 5rem;
     margin: 0%;
     padding: 0%;
@@ -46,9 +46,10 @@ nav>div>ul>li{
 
 nav a{
     color:white;
-    font-size: x-large;
+    font-size: 4.5vh;
     text-decoration: none;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: color 0.5s;
 }
 nav a:hover{
     color: red;

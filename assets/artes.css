@@ -1,0 +1,27 @@
+@import"nav.css";
+
+div.artes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    width: 100%;
+    height: 100%;   
+}
+
+div > img{
+    display: grid;
+    z-index: 2;
+    width: 80%;
+    margin-top: 20vh;
+    border-radius: 15px;
+}
+
+.fundo{
+    background-image: url(arte.jpg);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
