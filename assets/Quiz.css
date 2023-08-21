@@ -1,0 +1,70 @@
+@import"nav.css";
+
+@font-face {
+    font-family: melhor fonte;
+    src: url(./Assassin$\ \(1\).ttf);
+}
+
+main{
+    display: grid;
+    place-items: center;
+    gap: 3vw;
+}
+
+div.alternativas{
+    display: grid;
+    justify-content: space-between;
+    gap: 0.3rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.alternativas > button {
+    width: 8rem;
+    height: 3rem;
+    font-size: medium;
+    background-color: rgb(134, 134, 134);
+    color: white;
+    border-radius: 10px;
+    border-style: ridge;
+    border: 2.5px solid black;
+}
+
+
+
+
+body{
+    background-image: url("./fundo_quiz.png");
+    background-size: cover;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(120%);
+    box-shadow: 2px 2px 4px;
+}
+
+.pergunta{
+    font-family: melhor fonte;
+    font-size: 2.6rem;
+    color: white;
+    place-items: center;
+    z-index: 3;
+    margin-top: 5%;
+}
+
+.placar{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .3);
+    color: white;
+    width: 10rem;
+    text-align: center; 
+    border-radius: 20px;
+    font-family: melhor fonte;
+}
+
+.placar>h1
+{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}

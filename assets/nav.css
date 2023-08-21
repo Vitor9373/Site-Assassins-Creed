@@ -54,7 +54,7 @@ nav>div>ul>li{
 
 nav a{
     color:white;
-    font-size: 4.5vh;
+    font-size: 150%;
     text-decoration: none;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: color 0.5s;
@@ -64,7 +64,7 @@ nav a:hover{
 }
 
 nav>div>ul>li>a>img{
-    height: 5rem;
+    height: 75%;
     background-color: rgba(0, 0, 0, 0.651);
     border-radius: 20px;
 }

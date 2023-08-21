@@ -1,0 +1,52 @@
+[
+    {
+      "pergunta": "-Qual a desenvolvedora de Assassin's creed?",
+      "correta": 1,
+      "alternativas":["Mojang", "Ubisoft", "EA", "Microsoft", "Sony", "Nintendo", "Blizzard", "Apple", "Epic Games", "System Era " ]
+    },
+    {
+      "pergunta": "-Quando lançou o primeiro Assassin's creed?",
+      "correta": 6,
+      "alternativas": [1998, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2023]
+    },
+    {
+      "pergunta": "-Qual o protagonista do primeiro jogo?",
+      "correta": 3,
+      "alternativas": ["Cleber", "Creed", "Ezio", "Altaïr", "Alexios", "Connor", "William", "Edward", "Evie", "Arno"]
+    },
+    {
+      "pergunta": "-Assassin's Creed III é qual jogo da franquia?",
+      "correta": 4,
+      "alternativas":["não existe", "o segundo", "o terceiro", "o quarto", "o quinto", "o sexto", "o sétimo", "o oitavo", "o nono", "o último"]
+    },
+    {
+      "pergunta": "-Quem é o inimigo dos assassinos?",
+      "correta": 0,
+      "alternativas":["os templários", "os asassinos", "o sisae", "a luz", "a escola", "a Ubisoft", "os cavaleiros", "a ordem","os anciões","os deuses"]
+    },
+    {
+      "pergunta": "-Alexios e Kassandra são protagonistas de qual jogo?",
+      "correta": 6,
+      "alternativas":["Ass.Creed II", "Ass.Creed Syndicate", "Ass.Creed Valhalla", "Ass.Creed Liberation", "Ass.Creed Unity", "Ass.Creed III", "Ass.Creed Odissey", "Ass.Creed", "Ass.Creed IV", "Ass.Creed Mirage"]
+    },
+    {
+      "pergunta": "-Ezio vivia na(o):",
+      "correta": 9,
+      "alternativas":["França", "Egito", "Inglaterra", "Estados Unidos", "Russia", "Austrália", "Caribe", "Alemanha", "Noruega", "Itália"]
+    },
+    {
+      "pergunta": "-O lema dos assassinos é: Trabalhamos na ___ para servir a ___ ",
+      "correta": 7,
+      "alternativas":["escola,diretoria", "luz,escuridão", "noite,luz", "vida,família", "cerração,luz", "igreja,escuridão", "infelicidade, luz","escuridão,luz", "pretidão,noite", "sombra, luz"]
+     },
+     {
+      "pergunta": "-Qual Assassin's Creed tem a melhor avaliação crítica?",
+      "correta": 2,
+      "alternativas":["Ass.Creed Brotherhood", "Assaasin's Creed", "Ass.Creed II", "Ass.Creed Revelations", "Ass.Creed Chronicles", "Ass.Creed Rogue", "Ass,Creed III", "Ass.Creed Syindicate", "Ass.Creed IV", "Ass.Creed Odissey"]
+     },
+     {
+      "pergunta": "-Em Assassin's Creed Valhalla Eivor é descendente de:",
+      "correta": 5,
+      "alternativas":["Zeus", "Afrodite", "Thor", "Leônidas", "Loki", "Odin", "Freya", "Hel", "Tyr", "Poseidon"]
+     }
+    ]   
