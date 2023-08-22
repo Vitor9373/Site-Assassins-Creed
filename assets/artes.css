@@ -1,5 +1,9 @@
 @import"nav.css";
 
+*{
+    margin: 0;
+}
+
 div.artes{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -20,8 +24,9 @@ div > img{
     background-image: url(arte.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     position: fixed;
     width: 100%;
     height: 100vh;
-    z-index: 1;
+    z-index: 1; 
 }
