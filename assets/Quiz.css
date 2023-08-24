@@ -35,6 +35,11 @@ div.alternativas{
 body{
     background-image: url("./fundo_quiz.png");
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
 }
 
 button:hover{
