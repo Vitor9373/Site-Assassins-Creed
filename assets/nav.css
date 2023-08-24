@@ -65,7 +65,7 @@ nav>div>ul>li>a>img{
 }
 
 @media screen {
-    @media(min-width: 1000px){
+    @media(min-width: 800px){
          nav a{
              font-size: 38px;
          }
