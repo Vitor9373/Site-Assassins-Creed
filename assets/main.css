@@ -24,7 +24,19 @@ p2{
     width: 75%;
 }
 
-img.assassinos{
+img.assassinos,
+img.templários{
     width: 50%;
     border-radius: 20px;
+}
+
+.credo{
+    width: 75%;
+    font-weight: bold;
+}
+
+img.peça{
+    width: 25%; 
+    height: 100%;
+    border-radius: 20px
 }
